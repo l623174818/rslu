@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<!-- saved from url=(0025)http://202.127.29.4/rslu/ -->
+<html lang="en" data-darkreader-mode="dynamic" data-darkreader-scheme="dark">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <style class="darkreader darkreader--fallback" media="screen"></style>
+  <style class="darkreader darkreader--text" media="screen"></style>
+  <style class="darkreader darkreader--invert" media="screen">
+    .jfk-bubble.gtx-bubble,
+    .captcheck_answer_label>input+img,
+    span#closed_text>img[src^="https://www.gstatic.com/images/branding/googlelogo"],
+    span[data-href^="https://www.hcaptcha.com/"]>#icon,
+    #bit-notification-bar-iframe,
+    embed[type="application/pdf"] {
+      filter: invert(100%) hue-rotate(180deg) contrast(90%) !important;
+    }
+  </style>
+  <style class="darkreader darkreader--inline" media="screen">
+    [data-darkreader-inline-bgcolor] {
+      background-color: var(--darkreader-inline-bgcolor) !important;
+    }
+
+    [data-darkreader-inline-bgimage] {
+      background-image: var(--darkreader-inline-bgimage) !important;
+    }
+
+    [data-darkreader-inline-border] {
+      border-color: var(--darkreader-inline-border) !important;
+    }
+
+    [data-darkreader-inline-border-bottom] {
+      border-bottom-color: var(--darkreader-inline-border-bottom) !important;
+    }
+
+    [data-darkreader-inline-border-left] {
+      border-left-color: var(--darkreader-inline-border-left) !important;
+    }
+
+    [data-darkreader-inline-border-right] {
+      border-right-color: var(--darkreader-inline-border-right) !important;
+    }
+
+    [data-darkreader-inline-border-top] {
+      border-top-color: var(--darkreader-inline-border-top) !important;
+    }
+
+    [data-darkreader-inline-boxshadow] {
+      box-shadow: var(--darkreader-inline-boxshadow) !important;
+    }
+
+    [data-darkreader-inline-color] {
+      color: var(--darkreader-inline-color) !important;
+    }
+
+    [data-darkreader-inline-fill] {
+      fill: var(--darkreader-inline-fill) !important;
+    }
+
+    [data-darkreader-inline-stroke] {
+      stroke: var(--darkreader-inline-stroke) !important;
+    }
+
+    [data-darkreader-inline-outline] {
+      outline-color: var(--darkreader-inline-outline) !important;
+    }
+
+    [data-darkreader-inline-stopcolor] {
+      stop-color: var(--darkreader-inline-stopcolor) !important;
+    }
+  </style>
+  <style class="darkreader darkreader--variables" media="screen">
+    :root {
+      --darkreader-neutral-background: #131516;
+      --darkreader-neutral-text: #d8d4cf;
+      --darkreader-selection-background: #004daa;
+      --darkreader-selection-text: #e8e6e3;
+    }
+  </style>
+  <style class="darkreader darkreader--root-vars" media="screen"></style>
+  <script class="darkreader darkreader--proxy">
+    (function injectProxy() {
+      document.dispatchEvent(
+        new CustomEvent("__darkreader__inlineScriptsAllowed")
+      );
+      const addRuleDescriptor = Object.getOwnPropertyDescriptor(
+        CSSStyleSheet.prototype,
+        "addRule"
+      );
+      const insertRuleDescriptor = Object.getOwnPropertyDescriptor(
+        CSSStyleSheet.prototype,
+        "insertRule"
+      );
+      const deleteRuleDescriptor = Object.getOwnPropertyDescriptor(
+        CSSStyleSheet.prototype,
+        "deleteRule"
+      );
+      const removeRuleDescriptor = Object.getOwnPropertyDescriptor(
+        CSSStyleSheet.prototype,
+        "removeRule"
+      );
+      const shouldWrapDocStyleSheets =
+        location.hostname.endsWith("pushbullet.com") ||
+        location.hostname.endsWith("ilsole24ore.com");
+      const documentStyleSheetsDescriptor = shouldWrapDocStyleSheets ?
+        Object.getOwnPropertyDescriptor(Document.prototype, "styleSheets") :
+        null;
+      const cleanUp = () => {
+        Object.defineProperty(
+          CSSStyleSheet.prototype,
+          "addRule",
+          addRuleDescriptor
+        );
+        Object.defineProperty(
+          CSSStyleSheet.prototype,
+          "insertRule",
+          insertRuleDescriptor
+        );
+        Object.defineProperty(
+          CSSStyleSheet.prototype,
+          "deleteRule",
+          deleteRuleDescriptor
+        );
+        Object.defineProperty(
+          CSSStyleSheet.prototype,
+          "removeRule",
+          removeRuleDescriptor
+        );
+        document.removeEventListener("__darkreader__cleanUp", cleanUp);
+        document.removeEventListener(
+          "__darkreader__addUndefinedResolver",
+          addUndefinedResolver
+        );
+        if (shouldWrapDocStyleSheets) {
+          Object.defineProperty(
+            Document.prototype,
+            "styleSheets",
+            documentStyleSheetsDescriptor
+          );
+        }
+      };
+      const addUndefinedResolver = (e) => {
+        customElements.whenDefined(e.detail.tag).then(() => {
+          document.dispatchEvent(
+            new CustomEvent("__darkreader__isDefined", {
+              detail: {
+                tag: e.detail.tag
+              }
+            })
+          );
+        });
+      };
+      document.addEventListener("__darkreader__cleanUp", cleanUp);
+      document.addEventListener(
+        "__darkreader__addUndefinedResolver",
+        addUndefinedResolver
+      );
+      const updateSheetEvent = new Event("__darkreader__updateSheet");
+
+      function proxyAddRule(selector, style, index) {
+        addRuleDescriptor.value.call(this, selector, style, index);
+        if (
+          this.ownerNode &&
+          !this.ownerNode.classList.contains("darkreader")
+        ) {
+          this.ownerNode.dispatchEvent(updateSheetEvent);
+        }
+        return -1;
+      }
+
+      function proxyInsertRule(rule, index) {
+        const returnValue = insertRuleDescriptor.value.call(
+          this,
+          rule,
+          index
+        );
+        if (
+          this.ownerNode &&
+          !this.ownerNode.classList.contains("darkreader")
+        ) {
+          this.ownerNode.dispatchEvent(updateSheetEvent);
+        }
+        return returnValue;
+      }
+
+      function proxyDeleteRule(index) {
+        deleteRuleDescriptor.value.call(this, index);
+        if (
+          this.ownerNode &&
+          !this.ownerNode.classList.contains("darkreader")
+        ) {
+          this.ownerNode.dispatchEvent(updateSheetEvent);
+        }
+      }
+
+      function proxyRemoveRule(index) {
+        removeRuleDescriptor.value.call(this, index);
+        if (
+          this.ownerNode &&
+          !this.ownerNode.classList.contains("darkreader")
+        ) {
+          this.ownerNode.dispatchEvent(updateSheetEvent);
+        }
+      }
+
+      function proxyDocumentStyleSheets() {
+        const docSheets = documentStyleSheetsDescriptor.get.call(this);
+        const filtered = [...docSheets].filter((styleSheet) => {
+          return !styleSheet.ownerNode.classList.contains("darkreader");
+        });
+        return Object.setPrototypeOf(filtered, StyleSheetList.prototype);
+      }
+      Object.defineProperty(
+        CSSStyleSheet.prototype,
+        "addRule",
+        Object.assign({}, addRuleDescriptor, {
+          value: proxyAddRule
+        })
+      );
+      Object.defineProperty(
+        CSSStyleSheet.prototype,
+        "insertRule",
+        Object.assign({}, insertRuleDescriptor, {
+          value: proxyInsertRule
+        })
+      );
+      Object.defineProperty(
+        CSSStyleSheet.prototype,
+        "deleteRule",
+        Object.assign({}, deleteRuleDescriptor, {
+          value: proxyDeleteRule
+        })
+      );
+      Object.defineProperty(
+        CSSStyleSheet.prototype,
+        "removeRule",
+        Object.assign({}, removeRuleDescriptor, {
+          value: proxyRemoveRule
+        })
+      );
+      if (shouldWrapDocStyleSheets) {
+        Object.defineProperty(
+          Document.prototype,
+          "styleSheets",
+          Object.assign({}, documentStyleSheetsDescriptor, {
+            get: proxyDocumentStyleSheets
+          })
+        );
+      }
+    })()
+  </script>
+  <style class="darkreader darkreader--user-agent" media="screen">
+    html {
+      background-color: #181a1b !important;
+    }
+
+    html,
+    body,
+    input,
+    textarea,
+    select,
+    button {
+      background-color: #181a1b;
+    }
+
+    html,
+    body,
+    input,
+    textarea,
+    select,
+    button {
+      border-color: #736b5e;
+      color: #e8e6e3;
+    }
+
+    a {
+      color: #3391ff;
+    }
+
+    table {
+      border-color: #545b5e;
+    }
+
+    ::placeholder {
+      color: #b2aba1;
+    }
+
+    input:-webkit-autofill,
+    textarea:-webkit-autofill,
+    select:-webkit-autofill {
+      background-color: #555b00 !important;
+      color: #e8e6e3 !important;
+    }
+
+    ::-webkit-scrollbar {
+      background-color: #202324;
+      color: #aba499;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background-color: #454a4d;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background-color: #575e62;
+    }
+
+    ::-webkit-scrollbar-thumb:active {
+      background-color: #484e51;
+    }
+
+    ::-webkit-scrollbar-corner {
+      background-color: #181a1b;
+    }
+
+    ::selection {
+      background-color: #004daa !important;
+      color: #e8e6e3 !important;
+    }
+
+    ::-moz-selection {
+      background-color: #004daa !important;
+      color: #e8e6e3 !important;
+    }
+  </style>
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Rusen Lu">
+  <meta name="keywords"
+    content="black hole, AGN, Sgr A*, M87, VLBI, mm-VLBI, jet, Event Horizon Telescope, EHT, Global Millimeter VLBI Array, GMVA">
+
+
+  <title> Rusen Lu's homepage </title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="./Rusen Lu's homepage_files/bootstrap.min.css" rel="stylesheet">
+  <style class="darkreader darkreader--sync" media="screen"></style>
+
+  <!-- Custom styles for this template -->
+  <link href="./Rusen Lu's homepage_files/scrolling-nav.css" rel="stylesheet">
+  <style class="darkreader darkreader--sync" media="screen"></style>
+
+  <meta name="darkreader" content="0c53f25fee131105da7d94a62dba2816">
+  <style class="darkreader darkreader--override" media="screen">
+    .vimvixen-hint {
+      background-color: #7b5300 !important;
+      border-color: #d8b013 !important;
+      color: #f3e8c8 !important;
+    }
+
+    ::placeholder {
+      opacity: 0.5 !important;
+    }
+
+    a[href="https://coinmarketcap.com/"]>svg[width="94"][height="16"]>path {
+      fill: var(--darkreader-neutral-text) !important;
+    }
+
+    #edge-translate-panel-body {
+      color: var(--darkreader-neutral-text) !important;
+    }
+  </style>
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <a href="./Rusen Lu's homepage.html" style="text-decoration: none;">
+        <h3 style="color: #D1CDC7;">Rusen Lu's homepage</h3>
+      </a>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="./Rusen Lu's homepage.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="./members.html">Members</a>
+        </li>
+      </ul>
+    </div>
+
+  </nav>
+
+
+  <section id="members" style="background-color: #181A1B;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 style="color: #D1CDC7;">Rusen-Lu</h2>
+          <br>
+          <!--<p class="lead">xxx</p>-->
+          <div class="paragraph Body">
+            <div class="contain">
+              <div style="margin: 30%;margin-bottom: 0;margin-top: 0;">
+              <img src="./Rusen Lu's homepage_files/rslu.jpeg" style="width:300px;">
+              </div>
+              <div class="row" style="margin: 30px;">
+                <div class="col-md-12 col-sm-12"
+                  style="color: #D1CDC7;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;text-align: center;padding: 30px;">
+                  <strong>Basic Information</strong></div>
+                <div class="col-md-3 col-sm-6"
+                  style="color: #D1CDC7;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;text-align: center;padding: 10px">Name
+                </div>
+                <div class="col-md-3 col-sm-6"
+                  style="color: #D1CDC7;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;text-align: center;padding: 10px">Rusen
+                  Lu</div>
+                <div class="col-md-3 col-sm-6"
+                  style="color: #D1CDC7;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;text-align: center;padding: 10px">Mail
+                </div>
+                <div class="col-md-3 col-sm-6"
+                  style="color: #D1CDC7;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;text-align: center;padding: 10px">
+                  rslu@shao.ac.cn</div>
+                <div class="col-md-3 col-sm-6"
+                  style="color: #D1CDC7;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;text-align: center;padding: 10px">Tel
+                </div>
+                <div class="col-md-3 col-sm-6"
+                  style="color: #D1CDC7;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;text-align: center;padding: 10px">
+                  021-34776078</div>
+                <div class="col-md-3 col-sm-6"
+                  style="color: #D1CDC7;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;text-align: center;padding: 10px">Fax
+                </div>
+                <div class="col-md-3 col-sm-6"
+                  style="color: #D1CDC7;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;text-align: center;padding: 10px">
+                  021-64384618</div>
+                <div class="col-md-12 col-sm-12"
+                  style="color: #D1CDC7;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;text-align: center;padding: 30px;">
+                  <strong>Resume</strong></div>
+                <div class="col-md-6 col-sm-6"
+                  style="color: #D1CDC7;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;text-align: center;padding: 20px">
+                  2010</div>
+                <div class="col-md-6 col-sm-6"
+                  style="color: #D1CDC7;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;padding: 20px">Got
+                  Ph.D from University of Cologne through the International Max Planck Research School for Astronomy and
+                  Astrophysics program.</div>
+                <div class="col-md-6 col-sm-6"
+                  style="color: #D1CDC7;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;text-align: center;padding: 20px">
+                  2010-2011</div>
+                <div class="col-md-6 col-sm-6"
+                  style="color: #D1CDC7;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;padding: 20px">As a
+                  postdoc fellow at the Max Planck Institute for Radio Astronomy.</div>
+                <div class="col-md-6 col-sm-6"
+                  style="color: #D1CDC7;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;text-align: center;padding: 20px">
+                  2011-2014</div>
+                <div class="col-md-6 col-sm-6"
+                  style="color: #D1CDC7;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;padding: 20px">As a
+                  postdoc associate at the MIT Haystack Observatory.</div>
+                <div class="col-md-6 col-sm-6"
+                  style="color: #D1CDC7;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;text-align: center;padding: 20px">
+                  2014-2018</div>
+                <div class="col-md-6 col-sm-6"
+                  style="color: #D1CDC7;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;padding: 20px">As a
+                  staff scientist at the MPIfR.</div>
+                <div class="col-md-6 col-sm-6"
+                  style="color: #D1CDC7;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;text-align: center;padding: 20px">
+                  2018-now</div>
+                <div class="col-md-6 col-sm-6"
+                  style="color: #D1CDC7;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;padding: 20px">As a
+                  researcher, the leader of the project, the supervisor of doctoral students, and the leader of the Max
+                  Planck Partner Group.</div>
+                <div class="col-md-12 col-sm-12"
+                  style="color: #D1CDC7;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;text-align: center;padding: 30px;">
+                  <strong>Research</strong></div>
+                <div class="col-md-12 col-sm-12"
+                  style="color: #D1CDC7;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;padding: 20px">The
+                  research interests include high-resolution radio astrophysics, in particular Very Long Baseline
+                  Interferometry (VLBI) and its applications in astrophysics.</div>
+                <div class="col-md-12 col-sm-12"
+                  style="color: #D1CDC7;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;padding: 20px">It has long been interested in the imaging of supermassive black holes and has carried out a series of high-resolution studies on the central black holes of the Milky Way SgrA*, M87 and other nearby active galactic nuclei. These results have been published in top international academic journals, including <i>Science</i>. Among them, the structure of galactic black holes at the event horizon scale is selected as one of the most commonly used AAS 2018. (over 20,000 times).</div>
+              </div>
+              <!-- <div class="media">
+                  <div class="media-left">
+                    <img src="./Rusen Lu's homepage_files/rslu.jpeg" class="media-object" style="width:200px">
+                  </div>
+                  <div class="media-body" style="margin-left: 50px;">
+                    <h3 class="media-heading">Rusen Lu</h3>
+                    <div class="panel-group" id="accordion">
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                              <h5>Resume&#62;</h5>
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <ul>
+                              <li><strong>2010</strong> Got Ph.D from University of Cologne through the International
+                                Max Planck Research School for Astronomy and Astrophysics program.</li>
+                              <li><strong>2011</strong> Got Ph.D from Shanghai Astronomical Observatory.</li>
+                              <li><strong>2010-2011</strong> As a postdoc fellow at the Max Planck Institute for Radio
+                                Astronomy.</li>
+                              <li><strong>2011-2014</strong> As a postdoc associate at the MIT Haystack Observatory.
+                              </li>
+                              <li><strong>2014-2018</strong> As a staff scientist at the MPIfR.</li>
+                              <li><strong>2018-now</strong> 中科院上海天文台担任研究员，课题组长，博士生导师，中徳马普伙伴小组组长</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                              <h5>Research&#62;</h5>
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <p>The research interests include high-resolution radio astrophysics, in particular Very
+                              Long Baseline Interferometry (VLBI) and its applications in astrophysics. </p>
+                            <p>It has long been interested in the imaging of supermassive black holes and has carried
+                              out a series of high-resolution studies on the central black holes of the Milky Way SgrA
+                              *, M87 and other nearby active galactic nuclei. These results have been published in top
+                              international academic journals, including <i>Science</i>. Among them, the structure of
+                              galactic black holes at the event horizon scale is selected as one of the most commonly
+                              used AAS 2018. (over 20,000 times). </p>
+                            <p>Long and deep participation in the international cooperation of the Event Horizon
+                              Telescope (EHT) has made a positive contribution to the efforts to obtain the first human
+                              image of a black hole. </p>
+                            <p>As a reviewer for core international astrophysics publications such as a&A, ApJ and
+                              MNRAS.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                              <h5>Contact&#62;</h5>
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <ul>
+                              <li><strong>tel:</strong>021-34776078</li>
+                              <li><strong>fax:</strong>021-64384618</li>
+                              <li><strong>email:</strong>rslu@shao.ac.cn</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+            </div>
+            <br>
+          </div>
+        </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright © Rusen Lu 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="./Rusen Lu's homepage_files/jquery.min.js"></script>
+  <script src="./Rusen Lu's homepage_files/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="./Rusen Lu's homepage_files/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="./Rusen Lu's homepage_files/scrolling-nav.js"></script>
+
+
+
+
+</body>
+
+</html>
